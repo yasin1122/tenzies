@@ -94,7 +94,6 @@ button.roll-dice {
 }
 
 .roll-count {
-    text-decoration: underline;
     color: crimson;
     text-shadow: 1px 1px 10px goldenrod;
 }
