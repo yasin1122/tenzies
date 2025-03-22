@@ -64,8 +64,8 @@ export default function App() {
             <div aria-live="polite" className="sr-only">
                 {gameWon && <p>Congratulations! You won! Press "New Game" to start again.</p>}
             </div>
-            <h1 className="title">Tenzies</h1>
-            <p className="instructions">Roll until all dice are the same. Click each die to <strong><em>FREEZE</em></strong> its value. {rollCount !== 0 && <strong>Number of Rolls: <span className="roll-count">{rollCount}</span></strong>}</p>
+            <h1 className="title">Tenzies{rollCount !== 0 && <span> 🎲 <span className="roll-count">: {rollCount}</span></span>}</h1>
+            <p className="instructions">Roll until all dice are the same. Click each die to <strong><em>FREEZE</em></strong> its value. {rollCount !== 0 && <strong>Check the Roll Count ⬆️</strong>}</p>
             <div className="dice-container">
                 {diceElements}
             </div>
