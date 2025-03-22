@@ -64,6 +64,7 @@ button {
     background-color: white;
     font-size: 1.75rem;
     font-weight: bold;
+    text-align: center;
 }
 
 button.roll-dice {
